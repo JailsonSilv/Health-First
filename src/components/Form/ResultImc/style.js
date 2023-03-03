@@ -3,19 +3,19 @@ import { StyleSheet } from "react-native"
 const styles = StyleSheet.create({
     contentResu: {
         flex: 1,
-        marginTop: 15,
+        marginTop: 10,
         paddingTop: 60,
         borderRadius: 50,
         alignItems: "center",
         width: "100%",
     },
     textResult: {
-        fontSize: 18,
+        fontSize: 25,
         color: "#ff0043",
         fontWeight: "bold",
     },
     numberResult: {
-        fontSize: 48,
+        fontSize: 55,
         color: "#ff0043",
         fontWeight: "bold",
     },
@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
         borderRadius: 50,
         paddingTop: 5,
         paddingBottom: 5,
+        marginTop:12,
     },
     sharedText: {
         color:"#ffff",

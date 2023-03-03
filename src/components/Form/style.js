@@ -35,7 +35,7 @@ const styles = StyleSheet.create({
         paddingTop: 14,
         paddingBottom: 14,
         marginLeft: 12,
-        marginTop: 30,
+        marginTop: 50,
     },
     textButtonCalculator: {
         fontSize: 20,
@@ -47,6 +47,25 @@ const styles = StyleSheet.create({
         color: "#FF0027",
         fontWeight: "bold",
         paddingLeft: 20,
+    },
+    exhibitionResultImc: {
+        width: "100%",
+        height: "50%",
+    },
+    listImcs: {
+        marginTop: 25,
+    },
+    resultImcItem: {
+        fontSize: 28,
+        color: "#ff0000",
+        height: 50,
+        width: "100%",
+        paddingRight: 20,
+        fontWeight: "bold",
+    },
+    textResultItemList: {
+        fontSize: 18,
+        
     }
 });
 
